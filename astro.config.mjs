@@ -5,16 +5,20 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
+			title: 'Propromo Docs',
+			favicon: './public/favicon.png',
+			logo: {
+				src: './public/favicon.png',
+			},
 			social: {
-				github: 'https://github.com/withastro/starlight',
+				github: 'https://github.com/propromo-software/propromo',
 			},
 			sidebar: [
 				{
 					label: 'Guides',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', link: '/guides/example/' },
+						{ label: 'Joining a Project Dahboard', link: '/guides/join-dashboard/' },
 					],
 				},
 				{
