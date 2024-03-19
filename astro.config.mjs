@@ -6,9 +6,9 @@ import vercel from "@astrojs/vercel/serverless";
 export default defineConfig({
   integrations: [starlight({
     title: 'Propromo Docs',
-    favicon: './public/favicon.png',
+    favicon: '/public/favicon.png',
     logo: {
-      src: './public/favicon.png'
+      src: '/public/favicon.png'
     },
     social: {
       github: 'https://github.com/propromo-software/propromo'
@@ -17,10 +17,15 @@ export default defineConfig({
       label: 'Guides',
       items: [
       // Each item here is one entry in the navigation menu.
-      {
-        label: 'Joining a Project Dahboard',
-        link: '/guides/join-dashboard/'
-      }]
+        {
+          label: 'Joining a Project Monitor',
+          link: '/guides/join-monitor/'
+        },
+        {
+          label: 'Creating a Project Monitor',
+          link: '/guides/create-monitor/'
+        }  
+      ]
     }, {
       label: 'Reference',
       autogenerate: {

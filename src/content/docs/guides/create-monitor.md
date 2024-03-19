@@ -1,0 +1,30 @@
+---
+title: Introduction
+description: Creating a Monitor
+---
+
+Creating a monitor is easy.  
+
+1. Create a new github pat token.
+2. Copy the project url.
+3. Visit [create-monitor](https://propromo.duckdns.org/create-monitor).
+
+## 1. Create a new github pat token
+
+If you want to create a monitor and the project you want to display is private,  
+you need a Github pat token with read scopes first.  
+
+You can create such token at [github.com/settings/tokens](https://github.com/settings/tokens).  
+These are the needed scopes you need to select (*read-only* needed, no write access):  
+![classic-token-scope](../../../assets/classic-token-scope.png)
+
+> Note: If the project is public, you just need the url of the project.  
+
+## 2. Copy the project url
+
+Go to the project dashboard, you want to display, and copy it's url.  
+The url has the following format:  
+[https://github.com/<_users or orgs_>/<_login-name_>/projects/<_id_>/views/<_id_>](https://github.com/orgs/propromo-software/projects/1/views/6)
+
+> The view part does not matter, propromo can only fetch the milestones and issues, not the views.  
+> (version `2022-11-28` (latest) of the github-rest-api does not support that).
