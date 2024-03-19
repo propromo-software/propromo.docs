@@ -24,7 +24,7 @@ These are the needed scopes you need to select (*read-only* needed, no write acc
 
 Go to the project dashboard, you want to display, and copy it's url.  
 The url has the following format:  
-[https://github.com/<_users or orgs_>/<_login-name_>/projects/<_id_>/views/<_id_>](https://github.com/orgs/propromo-software/projects/1/views/6)
+[https://github.com/<*users or orgs*>/<*login-name*>/projects/<*id*>/views/<*id*>](https://github.com/orgs/propromo-software/projects/1/views/6)
 
 > The view part does not matter, propromo can only fetch the milestones and issues, not the views.  
 > (version `2022-11-28` (latest) of the github-rest-api does not support that).
