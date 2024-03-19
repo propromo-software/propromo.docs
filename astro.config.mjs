@@ -6,9 +6,9 @@ import vercel from "@astrojs/vercel/serverless";
 export default defineConfig({
   integrations: [starlight({
     title: 'Propromo Docs',
-    favicon: '/public/favicon.png',
+    favicon: '/img/favicon.png',
     logo: {
-      src: '/public/favicon.png'
+      src: './public/img/favicon.png'
     },
     social: {
       github: 'https://github.com/propromo-software/propromo'
