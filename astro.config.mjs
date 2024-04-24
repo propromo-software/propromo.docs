@@ -33,7 +33,10 @@ export default defineConfig({
         directory: 'reference'
       }
     }],
-    plugins: [starlightImageZoom()]
+    plugins: [starlightImageZoom()],
+    customCss: [
+      './src/styles/custom.css',
+    ],
   })],
   output: "hybrid",
   adapter: vercel({

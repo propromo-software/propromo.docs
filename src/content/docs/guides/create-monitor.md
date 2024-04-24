@@ -16,7 +16,7 @@ you need a Github pat token with read scopes first.
 
 You can create such token at [github.com/settings/tokens](https://github.com/settings/tokens).  
 These are the needed scopes you need to select (*read-only* needed, no write access):  
-![classic-token-scope](../../../assets/classic-token-scope.png)
+![classic-token-scope](../../../assets/classic-token-scopes.png)
 
 > Note: If the project is public, you just need the url of the project.  
 
