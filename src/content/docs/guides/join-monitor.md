@@ -8,13 +8,13 @@ The id is either in form of a link or a long string.
 
 **Examples:**
 
-- ID: $2y$12$C361MNrxzQnwT9GfeFNpo.UiFA/.es39JNmvSuOivSY9zqH9Jk2Fq
-- URL: [propromo.duckdns.org/monitors?join&id=$2y$12$C3...](https://propromo.duckdns.org/monitors?join&id=?)
+- ID: $2y$12$yS.ALofurRO3lc5oC6QmSuxzKwsYTPO.s67YaqVxkzKQS.K5A584C
+- URL: [propromo.duckdns.org/monitors/join/$2y$12$yS...](propromo.duckdns.org/monitors/join/$2y$12$yS.ALofurRO3lc5oC6QmSuxzKwsYTPO.s67YaqVxkzKQS.K5A584C)
 
 ## `monitor_id`
 
 Paste it in the input field at [propromo.duckdns.org](https://propromo.duckdns.org) and hit enter, or press the join button.  
-Alternatively you could join the project at [propromo.duckdns.org/monitors?join&id=<_id_>](https://propromo.duckdns.org/monitors?join&id=?) if you are already logged in.
+Alternatively you could join the project at [propromo.duckdns.org/monitors/join](propromo.duckdns.org/monitors/join).
 
 ## Link
 
