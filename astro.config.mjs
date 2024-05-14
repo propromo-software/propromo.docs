@@ -1,7 +1,6 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import vercel from "@astrojs/vercel/serverless";
-import starlightImageZoom from 'starlight-image-zoom';
 
 // https://astro.build/config
 export default defineConfig({
@@ -33,7 +32,7 @@ export default defineConfig({
         directory: 'reference'
       }
     }],
-    plugins: [starlightImageZoom()],
+    plugins: [],
     customCss: [
       './src/styles/custom.css',
     ],
