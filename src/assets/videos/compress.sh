@@ -3,7 +3,7 @@
 # needs ffmpeg (`sudo apt install ffmpeg` on debian)
 
 INPUT_DIR="./original"
-OUTPUT_DIR="./"
+OUTPUT_DIR="."
 
 mkdir -p "$OUTPUT_DIR"
 

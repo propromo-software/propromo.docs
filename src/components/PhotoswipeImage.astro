@@ -8,9 +8,9 @@ interface Props {
 }
 
 const { imageFolder } = Astro.props;
-const images = import.meta.glob<{ default: ImageMetadata }>("../assets/**");
+const images = import.meta.glob<{ default: ImageMetadata }>("../assets/images/**");
 const imagePaths = Object.keys(images).filter((imagePath) => {
-	return imagePath.startsWith(`../assets/${imageFolder}/`);
+	return imagePath.startsWith(`../assets/images/${imageFolder}/`);
 });
 ---
 
