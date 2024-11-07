@@ -1,6 +1,8 @@
 ---
 title: Design
 description: Propromo - Design Wireframe
+sidebar:
+  order: 1
 ---
 
 ## Website

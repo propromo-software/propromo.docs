@@ -1,6 +1,7 @@
 # Propromo Docs
 
-If you can not find something, on the docs-site, it might be here: [github/propromo/tutorials](https://github.com/propromo-software/propromo.docs/wiki/Tutorials).
+If you can not find something, on the docs-site, it might be here: [github/propromo/tutorials](https://github.com/propromo-software/propromo.docs/wiki/Tutorials).  
+Scribe tutorials are [here](https://scribehow.com/page/Propromo__MU4jHKxgQGaFxrY-THBpsg).
 
 ## 🚀 Project Structure
 
